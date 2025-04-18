@@ -41,15 +41,12 @@ const Header = () => {
   }, [mobileMenuOpen]);
 
   return (
-    <header className="bg-white dark:bg-gray-900 shadow-md relative">
+    <header className="bg-white  shadow-md relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link
-              href="/"
-              className="text-xl font-bold text-gray-800 dark:text-white"
-            >
+            <Link href="/" className="text-xl font-bold text-gray-800">
               YourLogo
             </Link>
           </div>
@@ -60,7 +57,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 href={item.path}
-                className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors"
+                className="text-gray-700 hover:text-indigo-600  font-medium transition-colors"
               >
                 {item.name}
               </Link>
@@ -71,7 +68,7 @@ const Header = () => {
           <div className="md:hidden flex items-center">
             <button
               type="button"
-              className="text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+              className="text-gray-700  hover:text-indigo-600 "
               onClick={toggleMobileMenu}
               aria-expanded={mobileMenuOpen}
             >
@@ -121,16 +118,16 @@ const Header = () => {
 
       {/* Mobile menu, sliding from right */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-white dark:bg-gray-900 z-20 shadow-lg transform transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed top-0 right-0 h-full w-64 bg-white  z-20 shadow-lg transform transition-transform duration-300 ease-in-out md:hidden ${
           mobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex justify-between items-center p-4 border-b dark:border-gray-700">
+        <div className="flex justify-between items-center p-4 border-b ">
           <h2 className="text-lg font-bold text-gray-800 dark:text-white">
             Menu
           </h2>
           <button
-            className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-white"
+            className="text-gray-500 hover:text-gray-700 "
             onClick={toggleMobileMenu}
           >
             <svg
@@ -153,7 +150,7 @@ const Header = () => {
             <Link
               key={item.name}
               href={item.path}
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-gray-50 dark:hover:bg-gray-800"
+              className="block px-3 py-2 rounded-md text-base font-medium dark:text-gray-300 hover:text-indigo-600  hover:bg-gray-50"
               onClick={toggleMobileMenu}
             >
               {item.name}
