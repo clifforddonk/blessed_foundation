@@ -1,7 +1,7 @@
 import React from "react";
 
 const page = () => {
-  return <div>Donate</div>;
+  return <div>This Is Where You make your donations</div>;
 };
 
 export default page;
