@@ -100,12 +100,12 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Link
+            {/* <Link
               href="/donate"
               className="px-6 py-2 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700 transition-colors coursor-pointer"
             >
               Donate Now
-            </Link>
+            </Link> */}
           </nav>
 
           {/* Mobile menu button */}
