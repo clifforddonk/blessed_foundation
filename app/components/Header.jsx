@@ -203,13 +203,13 @@ const Header = () => {
               {item.name}
             </Link>
           ))}
-          <Link
+          {/* <Link
             href="/donate"
             className="block px-3 py-2 mt-4 text-center bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700"
             onClick={toggleMobileMenu}
           >
             Donate Now
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </header>
