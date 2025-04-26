@@ -4,11 +4,6 @@
   --background: #ffffff;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --font-nunito: var(--font-nunito);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #ededed;
@@ -17,5 +12,6 @@
 
 body {
   background: var(--background);
-  font-family: var(--font-nunito), sans-serif;
+  color: var(--foreground);
+  font-family: var(--font-nunito), system-ui, sans-serif;
 }
