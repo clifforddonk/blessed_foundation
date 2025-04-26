@@ -170,13 +170,15 @@ const Header = () => {
         }`}
       >
         <div className="flex justify-between items-center p-4 border-b">
-          <h2 className="text-lg font-bold text-indigo-600">Menu</h2>
+          <h2 className="text-lg font-bold text-indigo-600">
+            Blessed Foundation
+          </h2>
           <button
             className="text-gray-500 hover:text-indigo-600"
             onClick={toggleMobileMenu}
           >
             <svg
-              className="h-6 w-6"
+              className="h-6 w-6 cursor-pointer"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
