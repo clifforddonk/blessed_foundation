@@ -28,7 +28,7 @@ const page = () => {
               href="/join-us"
               className="px-8 py-3 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700"
             >
-              Join Us
+              Join
             </a>
             <a
               href="/about"
@@ -100,7 +100,7 @@ const page = () => {
             </div>
             <div className="bg-white overflow-hidden shadow rounded-lg">
               <img
-                src="/a1.JPG"
+                src="/background.JPG"
                 alt="Healthcare"
                 className="w-full h-48 object-cover"
               />
