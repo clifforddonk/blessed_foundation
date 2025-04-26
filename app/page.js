@@ -116,7 +116,7 @@ const page = () => {
             </div>
             <div className="bg-white overflow-hidden shadow rounded-lg">
               <img
-                src="/background.JPG"
+                src="/a2.JPG"
                 alt="Community Development"
                 className="w-full h-48 object-cover"
               />
