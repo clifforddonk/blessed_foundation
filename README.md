@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Blessed Foundation 🌍
+Blessed is a web platform built to support a charity foundation by enabling transparent donations, campaign management, and community engagement.
+It’s designed with simplicity, trust, and accessibility at its core. ❤️
 
-## Getting Started
+✨ Features
+📋 View active donation campaigns
 
-First, run the development server:
+💳 Seamless online donations (Paystack integrated)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📊 Real-time donation tracking
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛡️ Secure backend with Django REST Framework
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🎯 Mobile-friendly frontend (Next.js powered)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⚙️ Tech Stack
+Backend: Django, Django REST Framework
 
-## Learn More
+Frontend: Next.js
 
-To learn more about Next.js, take a look at the following resources:
+Payments: Paystack API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Other Tools: CORS handling, environment variables for sensitive keys
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📌 Notes
+This project is currently under active development 🚧
 
-## Deploy on Vercel
+Future improvements: user authentication, dashboard for campaign organizers, admin analytics
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions, suggestions, and feedback are warmly welcome! 🤝
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📜 License
+This project is open-source and licensed under the MIT License.
+
+🙏 Thank You!
+Supporting one cause at a time.
+Built with passion and purpose.
