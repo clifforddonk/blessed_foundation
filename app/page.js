@@ -28,7 +28,7 @@ const page = () => {
               href="/join-us"
               className="px-8 py-3 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700"
             >
-              Join
+              Join Us
             </a>
             <a
               href="/about"
