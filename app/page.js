@@ -86,7 +86,7 @@ const page = () => {
           <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white overflow-hidden shadow rounded-lg">
               <img
-                src="/background.JPG"
+                src="/a1.JPG"
                 alt="Education"
                 className="w-full h-48 object-cover"
               />
