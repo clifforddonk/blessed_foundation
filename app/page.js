@@ -25,10 +25,10 @@ const page = () => {
           </p>
           <div className="mt-10 flex justify-center space-x-6">
             <a
-              href="/donate"
+              href="/join-us"
               className="px-8 py-3 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-700"
             >
-              Donate Now
+              Join Us
             </a>
             <a
               href="/about"
